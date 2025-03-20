@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillset Radar Chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>My Skillset Radar Chart</h1>
+    
+    <div class="tabs">
+        <button class="tab" onclick="showChart('marketing')">Marketing & Strategy</button>
+        <button class="tab" onclick="showChart('design')">Design & Branding</button>
+        <button class="tab" onclick="showChart('ai')">AI/Automation</button>
+        <button class="tab" onclick="showChart('web')">Web Development</button>
+    </div>
+
+    <canvas id="radarChart" width="400" height="400"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
